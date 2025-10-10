@@ -333,6 +333,8 @@ header{
     /* border: 2px solid rgb(194, 25, 25); */
     display: flex;
     justify-content: space-evenly;
+
+    overflow-x: scroll;
 }
 
 
@@ -462,4 +464,15 @@ center p{
     right: 2rem;
 
     cursor: pointer;
+}
+
+
+@media screen and (max-width:1024px){
+
+    #chat{
+        position: fixed;
+        top: 30rem;
+
+    }
+ 
 }
